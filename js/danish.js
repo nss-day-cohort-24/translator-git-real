@@ -1,3 +1,5 @@
+'use strict';
+
 let danish = document.getElementById('danish');
 danish.addEventListener('click', danishString);
 
