@@ -1,7 +1,16 @@
 'use strict';
 
-let recieveTestString = require("./mk-italian");
-let toHmong = require("./hmong");
+// REQUIRES
+let italian = require("./mk-italian");
 
-console.log(recieveTestString);
-console.log(toHmong);
+// IDS 
+let printDiv = document.getElementById('translatePrint');
+
+// EVENT LISTENERS 
+let translate = document.getElementById('translate');
+translate.addEventListener('click', printToDiv);
+
+function printToDiv(){
+printDiv.innerHTML = italian;
+}
+
