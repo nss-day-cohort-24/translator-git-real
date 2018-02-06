@@ -16,7 +16,9 @@ h1 {
 }
 
 input {
-    font-size: 1em;
+    font-size: 0.75em;
+    border-radius: 5px;
+    width: 70%;
 }
 
 img {
@@ -35,4 +37,12 @@ button {
     font-size: 1em;
     margin-top: 20px;
     padding: 10px;
+    font-family: $font;
+    border-radius: 5px;
+}
+
+#translatePrint {
+    text-align: center;
+    font-family: $font;
+    margin-top: 40px;
 }
