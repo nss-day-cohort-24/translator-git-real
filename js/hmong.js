@@ -1,8 +1,8 @@
 "use strict";
 
 function toHmong() {
-    let hmongWords = "bla bal bala";
-    return hmongWords;
+return "bla bal bala";
 }
 
-module.exports = toHmong;
+let hmongExport = toHmong();
+module.exports = hmongExport;
