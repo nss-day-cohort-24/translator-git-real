@@ -1,17 +1,86 @@
 "use strict";
 
+
 function german() {
-    const germanText = "Du bist die heißeste Tasche";
-    return germanText
+    return "Du bist die heißeste Tasche";
 }
+var germanElement = german();
 
-console.log(germanText);
-module.exports = german;
+let thisGerman = document.getElementById("german").addEventListener("click", german);
+    
+    
+    
+module.exports = germanElement;
+    
+
+     
 
 
 
-// let germanElement = document.getElementById("german");
-// germanElement.addEventListener("click", germanText );
+
+
+
+    
+   
+    
+
+
+
+//     let germanText = [
+//         {"you" : "Du"},
+//         {"are" : "bist"},
+//         {"the" : "die"},
+//         {"hottest" : "heißeste"},
+//         {"pocket" : "Tasche"},
+//     ];
+
+// var userInput = "You are the hottest pocket";
+// var userInputArray = userInput.split(' ');
+
+
+// module.exports = userInputArray;
+
+
+// let translatedText = [];
+
+
+// function translateToGerman(userInput){
+// let wordArray = userInput.split(" ");
+
+
+// wordArray.map(function(word, i){
+//     switch(word){
+//         case "you":
+//             translatedText[i] = germanText.you;
+//             break;
+//         case "are":
+//             translatedText[i] = germanText.are;
+//             break;
+//         case "the":
+//             translatedText[i] = germanText.the;
+//             break;
+//         case "hottest":
+//             translatedText[i] = germanText.hottest;
+//             break;
+//         case "pocket":
+//             translatedText [i] = germanText.pocket;
+//             break;
+//         return translatedText;
+//     }
+
+//     let translation = translatedText.join(" ");
+//     console.log(translation);
+    // return translation;
+// }
+
+// translateToGerman("you are the hottest pocket");
+
+
+
+
+
+// object with the german text, value and key
+
 
 
 // create html page that accepts user input, capture user value(getelementbyid), seperate those words out with split, put those words into an array,
@@ -24,6 +93,5 @@ module.exports = german;
 
 
 //can use .map
-
 //look up if in loop 
 
