@@ -1,3 +1,4 @@
+
 'use strict';
 
 // REQUIRES
@@ -13,4 +14,5 @@ translate.addEventListener('click', printToDiv);
 function printToDiv(){
 printDiv.innerHTML = italian;
 }
+
 
