@@ -1,3 +1,31 @@
+body {
+  background: lightpink;
+  font-size: 3em; }
 
+.flex-container {
+  text-align: center;
+  font-family: "Love Ya Like A Sister", regular;
+  color: red; }
+
+h1 {
+  margin-bottom: 20px; }
+
+input {
+  font-size: 1em; }
+
+img {
+  margin: 1px;
+  margin-right: 25px; }
+
+#text-translate {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+button {
+  font-size: 1em;
+  margin-top: 20px;
+  padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
