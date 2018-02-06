@@ -2,7 +2,7 @@
 console.log("spanish.js TEST");
 
 function toSpanish(){
-        return "Eres el mejor bolsilor";
+        return "Eres el mejor bolsillo";
 }
 var spanishString = toSpanish();
 
