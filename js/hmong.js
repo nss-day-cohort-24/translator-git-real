@@ -5,4 +5,4 @@ function toHmong() {
     return hmongWords;
 }
 
-module.exports = hmong;
+module.exports = toHmong;
